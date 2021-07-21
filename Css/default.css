@@ -1,0 +1,19 @@
+﻿h6#z_H6_TituloPagina
+{
+    font-size:25px;
+    color:#990100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}    
+
+#z_Pnl_a_Norte .x-panel-body {
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    background: transparent url(../Imagenes/fondo.png) repeat-x center top;
+}
+
+#z_Pnl_Oeste-body .x-panel-body {
+    background-color: #ffffff;
+}

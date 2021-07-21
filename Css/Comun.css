@@ -1,0 +1,63 @@
+﻿/* Scrollbar IE*/
+body {
+    /*font-size: 12px;
+    font-family: 'Merienda One', cursive;*/
+    /*font-family: "Trebuchet MS",sans-serif;*/
+    /* background: #F2D14F; */
+    /*font-weight: bold;*/
+    scrollbar-face-color: #f7d669;
+    scrollbar-shadow-color: #CCCCCC;
+    scrollbar-highlight-color: #CCCCCC;
+    scrollbar-3dlight-color: #f7d669;
+    scrollbar-darkshadow-color: #CCCCCC;
+    scrollbar-track-color: #CCCCCC;
+    scrollbar-arrow-color: #000033;
+}
+
+/* Scrollbar WEBKIT */
+
+::-webkit-scrollbar {
+    height: 20px;
+    overflow: visible;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: rgba(0, 0, 0, .4);
+    background-clip: padding-box;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    min-height: 30px;
+}
+
+    ::-webkit-scrollbar-thumb:vertical:hover,
+    ::-webkit-scrollbar-thumb:horizontal:hover {
+        background-color: #f7d669;
+    }
+
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+
+::-webkit-scrollbar-track {
+    background-clip: padding-box;
+    border-width: 0 0 0 4px;
+    border: solid transparent;
+}
+
+    ::-webkit-scrollbar-track:hover {
+        background-color: #F5F5F5;
+    }
+
+::-webkit-scrollbar-track-piece {
+    background-clip: padding-box;
+    background-color: white;
+}
+
+    ::-webkit-scrollbar-track-piece:hover {
+        background-color: #F5F5F5;
+    }
+

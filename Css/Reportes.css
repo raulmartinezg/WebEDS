@@ -1,0 +1,49 @@
+﻿#eds.z_FldSet_Cabecero .x-form-item
+{
+    padding-left:7px;
+}
+
+
+header, section
+{
+        box-shadow: #990100 3px 4.5px 8px 0.5px;    
+}
+
+.zCuerpo
+{
+    background:#CCCCCC;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	width: 95%;    
+}
+
+.zHeader
+{
+    background:#F2D14F;    
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;
+	margin: 0.5em auto;
+	padding: 0.2em;
+	width: 95%;
+}
+
+header h1
+{
+	font-family: 'Diplomata', cursive;
+    text-align: center;    
+    /*color:#fff;*/
+    color:rgba(0,0,0,2);
+}
+
+
+.x-grid3-cell-selected{
+	background-color: #eeddc0 !important;
+}

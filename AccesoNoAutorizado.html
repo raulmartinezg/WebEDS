@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Acceso no autorizado</title>
+    <script type="text/javascript">
+        function redireccionar() {
+            setTimeout("location.href='http://www.tum.com.mx/GrupoTUM/Default.aspx'", 4000);
+        }
+    </script>
+    <style type="text/css">
+        body {
+            background-color: #000000;
+            margin-left: auto;
+            margin-right: auto;
+            align-content: center;
+        }
+         img.imgcenter1 {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border: none;
+             width:10%;
+             height: 10%;
+         }
+         img.imgcenter2 {
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border: none;
+             width:20%;
+             height: 20%;
+         }
+        h1.letraCentro1 {
+            text-align:center;
+            font-family: sans-serif;
+            font-size:3em;
+            color: white;
+            display: block;
+        }
+        h1.letraCentro2 {
+            text-align:center;
+            font-family: sans-serif;
+            font-size:2em;
+            color: white;
+            display: block;
+        }
+    </style>
+</head>
+<body onload="redireccionar()">
+    <header>
+        <p>Acceso no Autorizado a la página</p>
+    </header>
+    <article>
+        <header>
+            <img src="/Imagenes/Cruz.png" alt="" class="imgcenter1" />
+            <h1 class="letraCentro1">Acceso no autorizado a la WebApp</h1>
+        </header>
+        <aside>
+            <img src="/Imagenes/TUMV.png" alt="" width="200" height="200" class="imgcenter2" />
+        </aside>
+        <footer>
+            <h1 class="letraCentro2">...Redireccionando a Portal de acceso</h1>
+        </footer>
+    </article>
+</body>
+</html>
